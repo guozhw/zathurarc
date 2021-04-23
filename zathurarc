@@ -23,15 +23,20 @@ set window-height 1000
 set adjust-open "best-fit"
 
 # scrollbars
-set show-scrollbars true
-#set window-title-basename true
+set show-scrollbars "true"
+set window-title-basename "true"
+set window-title-page "true"
+
+set scroll-wrap "true"
+set continuous-hist-save "true"
+# set zoom-center "true"
+# set vertical-center "true"
 
 # One page per row by default
 set pages-per-row 1
 
 #stop at page boundries
 set scroll-page-aware "true"
-set smooth-scroll "true"
 set scroll-full-overlap 0.01
 set scroll-step 100
 
